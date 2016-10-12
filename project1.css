@@ -1,0 +1,77 @@
+p {
+  text-align: center;
+}
+
+.container{
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  clear: right;
+  border: 1px solid red;
+  /*background-color: yellow;*/
+  /*color: green;*/
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+.boxLeft{
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  float: left;
+  clear: right;
+  text-align: center;
+  border: 1px solid blue
+}
+
+.buttonsStart {
+  background-color: #4CAF50; /* Green */
+  border: 1px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.buttonsReset {
+  background-color: #4CAF50; /* Green */
+  border: 1px;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.boxLeftBottom{
+  box-sizing: border-box;
+  width: 100%;
+  height: 200px;
+  float: left;
+  clear: right;
+  text-align: center;
+  padding: 70px 0;
+  border: 1px solid blue
+
+}
+
+.boxRight{
+  box-sizing: border-box;
+  width: 100%%;
+  height: 100px;
+  /*float: left;*/
+  clear: right;
+  text-align: center;
+  padding: 25px 0;
+  border: 1px solid blue
+}

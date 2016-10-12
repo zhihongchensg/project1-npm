@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="project1.css"
+    <title> A game you should never play  </title>
+  </head>
+
+  <body>
+    <h1 style="text-align:center"> hello world </h1>
+
+    <div id="containerLeft" class="container clearfix">
+      <div class = "boxLeft">
+        <p></p>
+        <p> Question </p>
+        Answer:
+          <input type="number" id="PAnsr" value=""><br>
+          <!-- onkeydown="playerEntersAnswer()" -->
+      </div>
+
+      <div class = "boxLeftBottom">
+        <p> <b>To win</b>, you must get at least 3 questions correct and must win by at least 2 points </p>
+      </div>
+
+
+    </div>
+
+    <div id="containerRight" class="container clearfix">
+      <div id="PlayerA" class="boxRight">
+        <p> Player A Score </p>
+      </div>
+      <div id="PlayerAScore" class="boxRight">
+        <p> 0 </p>
+      </div>
+      <div id="PlayerB" class="boxRight">
+        <p> Player B Score </p>
+      </div>
+      <div id="PlayerBScore" class="boxRight">
+        <p> 0  </p>
+      </div>
+    </div>
+
+    <button class= "buttonsStart"> Start Game </button>
+    <button class= "buttonsReset"> Reset </button>
+
+    <script src="http://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+    <script src="project1.js" type='text/javascript'> </script>
+  </body>
+
+</html>
